@@ -32,6 +32,34 @@
   <li>Normal map textures</li>
 </ul>
 
+<!-- GETTING STARTED -->
+## Getting Started
+In order to run the program first clone the repository:
+```bash
+git@github.com:ferri17/miniRT.git
+```
+Open the folder:
+```bash
+cd miniRT/
+```
+Compile the program:
+```bash
+make
+```
+Run the program with a valid scene as argument(test scenes can be found in /scenes)
+```bash
+./miniRT scenes/_test.rt
+```
+
+<!-- Controls -->
+## Controls
+| Action                          | Key                      |
+| :---                          | :----:                     |
+| Select object                 | Mouse left click           |
+| Move selected object          | A,S,D,W,1,2                |
+| Switch Render mode / Edit mode| M                          |
+| Bottom screen slider          | Change camera's FOV        |
+
 <!-- GALLERY -->
 ## Gallery
 
